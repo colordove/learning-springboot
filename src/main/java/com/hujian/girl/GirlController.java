@@ -74,4 +74,15 @@ public class GirlController {
         girlRepository.delete(id);
     }
 
+
+    /**
+     * Find Girls By Age
+     * @param age
+     * @return List<Girl>
+     */
+    @GetMapping(value = "girlListByAge/age/{age}")
+    public List<Girl> girlsByAge(@PathVariable("age") Integer age) {
+        return girlRepository.findByAge(age);
+    }
+
 }
