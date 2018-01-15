@@ -1,5 +1,6 @@
-package com.hujian.girl;
+package com.hujian.girl.repository;
 
+import com.hujian.girl.domain.Girl;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

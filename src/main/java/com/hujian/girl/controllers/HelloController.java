@@ -1,5 +1,6 @@
-package com.hujian.girl;
+package com.hujian.girl.controllers;
 
+import com.hujian.girl.properties.GirlProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
