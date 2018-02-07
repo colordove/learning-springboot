@@ -3,7 +3,6 @@ package com.hujian.girl.services;
 import com.hujian.girl.domain.Girl;
 import com.hujian.girl.exception.GirlException;
 import com.hujian.girl.repository.GirlRepository;
-import com.hujian.girl.utils.ResultUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
